@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Django
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+.env
+
+# Docker
+*.log
+*.pid
+*.seed
+*.cover
+venv/
+.env.docker
+.env.production
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
